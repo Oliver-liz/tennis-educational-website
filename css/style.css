@@ -1,0 +1,110 @@
+/* General page styling */
+body {
+    background-color: #f2f4f7;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #222222;
+}
+
+/* Header styling */
+header {
+    background-color: #0b3d91;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+/* Main heading */
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+/* Section headings */
+h2 {
+    text-align: center;
+    font-size: 26px;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+/* Main content */
+main {
+    width: 85%;
+    margin: 30px auto;
+}
+
+/* Reusable section class */
+.section-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Highlight class */
+.highlight {
+    background-color: #e8f1ff;
+    padding: 15px;
+    border-left: 5px solid #0b3d91;
+}
+
+/* Tennis introduction section */
+#tennis-intro {
+    text-align: center;
+}
+
+/* Tennis history section */
+#tennis-history {
+    min-height: 180px;
+}
+
+/* Flexbox container */
+#tennis-info {
+    display: flex;
+    gap: 20px;
+}
+
+/* Make both sections share the available space */
+#tennis-info .section-box {
+    flex: 1;
+}
+
+/* Images */
+img {
+    display: block;
+    width: 500px;
+    max-width: 100%;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+/* Lists */
+ul,
+ol {
+    line-height: 1.8;
+}
+
+/* Footer */
+footer {
+    background-color: #0b3d91;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Footer link */
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Footer link when the mouse is over it */
+footer a:hover {
+    text-decoration: underline;
+}
