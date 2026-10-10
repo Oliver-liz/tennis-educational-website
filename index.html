@@ -5,13 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tennis - History and Basics</title>
 
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
     <link rel="stylesheet" href="./css/style.css" />
 </head>
 
 <body>
 
+    <div class="container mt-4">
+
     <!-- Header contains the main title -->
-    <header>
+    <header class="text-center mb-4">
         <h1>Tennis: History and Basics</h1>
         <p>Learn About the Sport of Tennis</p>
     </header>
@@ -48,27 +53,27 @@
         </section>
 
         <!-- Section about the history of tennis -->
-    <div id="tennis-info">
+        <div id="tennis-info" class="row g-4">
 
-        <section id="tennis-history" class="section-box">
-            <h2>History of Tennis</h2>
+            <section id="tennis-history" class="section-box col-md-6">
+                <h2>History of Tennis</h2>
 
-            <p>
-                Tennis developed from older games played in Europe.
-                Over time, the sport became more organized and modern
-                tennis developed with official rules and competitions.
-            </p>
+                <p>
+                    Tennis developed from older games played in Europe.
+                    Over time, the sport became more organized and modern
+                    tennis developed with official rules and competitions.
+                </p>
 
-            <h3>Modern Tennis</h3>
+                <h3>Modern Tennis</h3>
 
-            <p>
-                Today, tennis is played around the world by people of
-                different ages and skill levels. Professional tennis
-                also has many important tournaments.
-            </p>
-        </section>
+                <p>
+                    Today, tennis is played around the world by people of
+                    different ages and skill levels. Professional tennis
+                    also has many important tournaments.
+                </p>
+            </section>
 
-    </div>
+        </div>
 
         <!-- Section about tennis equipment -->
         <section class="section-box">
@@ -87,8 +92,9 @@
 
     <!-- Footer contains the link to the second page -->
     <footer>
-        <a href="page2.html">Learn more about tennis rules and scoring</a>
-    </footer>
+    <a href="page2.html" class="btn btn-warning">Learn more about tennis rules and scoring</a>
+</footer>
 
+    </div>
 </body>
 </html>

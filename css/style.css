@@ -2,8 +2,6 @@
 body {
     background-color: #f2f4f7;
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
     color: #222222;
 }
 
@@ -11,7 +9,6 @@ body {
 header {
     background-color: #C04D00;
     color: white;
-    text-align: center;
     padding: 25px;
 }
 
@@ -35,7 +32,6 @@ p {
 
 /* Main content */
 main {
-    width: 85%;
     margin: 30px auto;
 }
 
@@ -51,7 +47,7 @@ main {
 .highlight {
     background-color: #FFF1E6;
     padding: 15px;
-    border-left: 5px solid #0b3d91;
+    border-left: 5px solid #C04D00;
 }
 
 /* Tennis introduction section */
@@ -64,24 +60,12 @@ main {
     min-height: 180px;
 }
 
-/* Flexbox container */
-#tennis-info {
-    display: flex;
-    gap: 20px;
-    align-items: stretch;
-}
-
-/* Make both sections share the available space */
-#tennis-info .section-box {
-    flex: 1;
-    margin-bottom: 0;
-}
-
 /* Images */
 img {
     display: block;
     width: 500px;
     max-width: 100%;
+    height: auto;
     margin: 20px auto;
     border-radius: 8px;
 }
@@ -100,33 +84,32 @@ footer {
     margin-top: 30px;
 }
 
-/* Footer link */
+/* Footer links */
 footer a {
     color: white;
     text-decoration: none;
     font-weight: bold;
 }
 
-/* Footer link when the mouse is over it */
 footer a:hover {
     text-decoration: underline;
 }
 
+/* Custom Bootstrap warning button */
+footer .btn-warning {
+    background-color: #C04D00;
+    border-color: #C04D00;
+    color: white;
+}
+
+footer .btn-warning:hover {
+    background-color: #963C00;
+    border-color: #963C00;
+    color: white;
+}
+
 /* Responsive layout for smaller screens */
 @media (max-width: 600px) {
-    body {
-        font-size: 16px;
-    }
-
-    main {
-        width: 90%;
-    }
-
-    #tennis-info {
-        flex-direction: column;
-        gap: 15px;
-    }
-
     header {
         padding: 20px;
     }
